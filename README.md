@@ -14,19 +14,21 @@
 
 3. Install composer dependencies: `composer install`
 
-4. `php artisan serve`
+4. `npm install`
 
-5. `npm run dev`
+5. `php artisan serve`
 
-6. Copy the `.env.example` file to `.env` and configure your database settings.
+6. `npm run dev`
 
-7.  `.env` mail configuration (Not:If the host is gmail, the app password is required) (https://support.google.com/mail/answer/185833?hl=en)
+7. Copy the `.env.example` file to `.env` and configure your database settings.
 
-8. Generate the application key: `php artisan key:generate`
+8.  `.env` mail configuration (Not:If the host is gmail, the app password is required) (https://support.google.com/mail/answer/185833?hl=en)
 
-9. Run database migrations: `php artisan migrate`
+9. Generate the application key: `php artisan key:generate`
 
-10. Start the development server: `php artisan db:seed`
+10. Run database migrations: `php artisan migrate`
+
+11. Start the development server: `php artisan db:seed`
    
-11. `php artisan queue:work`
+12. `php artisan queue:work`
 
