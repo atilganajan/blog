@@ -24,11 +24,13 @@
 
 8.  `.env` mail configuration (Not:If the host is gmail, the app password is required) (https://support.google.com/mail/answer/185833?hl=en)
 
-9. Generate the application key: `php artisan key:generate`
+9.  Update Queue connection  "QUEUE_CONNECTION=sync" to "QUEUE_CONNECTION=database"  
 
-10. Run database migrations: `php artisan migrate`
+10. Generate the application key: `php artisan key:generate`
 
-11. Start the development server: `php artisan db:seed`
+11. Run database migrations: `php artisan migrate`
+
+12. Start the development server: `php artisan db:seed`
    
-12. `php artisan queue:work`
+13. `php artisan queue:work`
 
